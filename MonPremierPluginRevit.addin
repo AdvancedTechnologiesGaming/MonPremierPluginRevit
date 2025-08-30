@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>GenerateurMaison</Name>
+    <Assembly>Chemin vers votre DLL\MonAddinRevit.dll</Assembly>
+    <AddInId>6A0E7C54-3ACD-49C1-A30D-7890C25C5678</AddInId>
+    <FullClassName>MonAddinRevit.Commande</FullClassName>
+    <VendorId>ATG</VendorId>
+    <VendorDescription>Advanced Technologies Gaming</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>GenerateurMaisonApp</Name>
+    <Assembly>Chemin vers votre DLL\MonAddinRevit.dll</Assembly>
+    <AddInId>7B1E2C45-6FDD-42B1-B21D-ABCDE1234567</AddInId>
+    <FullClassName>MonAddinRevit.Application</FullClassName>
+    <VendorId>ATG</VendorId>
+    <VendorDescription>Advanced Technologies Gaming</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+
+
